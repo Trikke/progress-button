@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">progress-button</string>
+	<string name="loading">Loading</string>
+	<string name="pressme">Press me</string>
+	<string name="pressmeultra">Press the ultra button!</string>
+</resources>

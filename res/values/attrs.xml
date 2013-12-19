@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ProgressButton">
+		<attr name="loadingDrawableLeft" format="reference" />
+		<attr name="loadingDrawableTop" format="reference" />
+		<attr name="loadingDrawableRight" format="reference" />
+		<attr name="loadingDrawableBottom" format="reference" />
+		<attr name="loadingText" format="reference|string" />
+		<attr name="loading" format="reference|boolean" />
+		<attr name="autoDisableClickable" format="reference|boolean"/>
+	</declare-styleable>
+</resources>

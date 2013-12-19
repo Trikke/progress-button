@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+			  android:padding="20dp"
+			  android:gravity="center"
+		>
+
+	<TextView
+			android:layout_margin="20dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Hello and welcome to this test."
+			/>
+
+	<com.trikke.progress.widget.ProgressButton
+			android:layout_margin="20dp"
+			android:id="@+id/button"
+			android:layout_width="wrap_content"
+			android:drawablePadding="15dp"
+			android:drawableLeft="@drawable/icon"
+			android:layout_height="wrap_content"
+			android:text="@string/pressme"
+			app:loadingText="@string/loading"
+			app:autoDisableClickable="true"
+			app:loadingDrawableRight="@drawable/spinner"/>
+
+	<com.trikke.progress.widget.ProgressButton
+			android:layout_margin="20dp"
+			android:id="@+id/utlrabutton"
+			android:layout_width="wrap_content"
+			android:drawablePadding="10dp"
+			android:drawableLeft="@drawable/icon"
+			android:drawableRight="@drawable/icon"
+			android:drawableBottom="@drawable/icon"
+			android:drawableTop="@drawable/icon"
+			android:layout_height="wrap_content"
+			android:text="@string/pressmeultra"
+			app:loadingText="@string/loading"
+			app:autoDisableClickable="true"
+			app:loadingDrawableRight="@drawable/spinner"
+			app:loadingDrawableTop="@drawable/nospinner"
+			app:loadingDrawableBottom="@drawable/nospinner"/>
+</LinearLayout>
+
